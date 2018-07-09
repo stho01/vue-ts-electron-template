@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron-webpack dev"
+    "start": "electron-webpack dev",
+    "build": "electron-webpack && electron-builder"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^2.0.4",
+    "electron-builder": "^20.19.2",
     "electron-webpack": "^2.1.2",
     "electron-webpack-ts": "^2.0.2",
     "electron-webpack-vue": "^2.1.3",
     "node-sass": "^4.9.2",
     "sass-loader": "^7.0.3",
+    "source-map-support": "^0.5.6",
     "typescript": "^2.9.2",
     "vue": "^2.5.16",
     "vue-loader": "^15.2.4",
