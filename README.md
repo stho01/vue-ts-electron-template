@@ -1,2 +1,2 @@
 # vue-ts-electron-template
-Boilerplate code setting up a clean vue.js electron app that uses webpack 
+Boilerplate code for setting up a clean vue.js electron app that uses webpack 
